@@ -18,9 +18,9 @@ include = [
 ]
 
 [dependencies]
-egui = "0.30.0"
+egui = "0.31.1"
 # use a fork of egui-miniquad that's been updated to support egui 0.30.0
-egui-miniquad = { git = 'https://github.com/zyllian/egui-miniquad.git', rev="9b05f831d9f1f131c6f06c1b871bcc7f26a4b466" }
+egui-miniquad = { git = 'https://github.com/zyllian/egui-miniquad.git', rev="dbba4fa98166b7078b05f801986b451f2b43165d" }
 macroquad = { version="0.4.13", default-features=false }
 
 [features]
@@ -28,7 +28,7 @@ default = ["audio"]
 audio = ["macroquad/audio"]
 
 [dev-dependencies]
-egui_demo_lib = "0.30.0"
+egui_demo_lib = "0.31.1"
 
 [profile.release]
 opt-level = 2
